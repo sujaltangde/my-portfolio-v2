@@ -26,7 +26,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             className="text-lg cursor-pointer  dark:text-white"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-100}
             duration={300}
             to="home"
           >
@@ -193,6 +193,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             offset={0}
             duration={300}
             to="home"
+            onClick={()=>setTog(!tog)}
           >
             Home
           </Link>
@@ -203,6 +204,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             offset={0}
             duration={300}
             to="about"
+            onClick={()=>setTog(!tog)}
           >
             About
           </Link>
@@ -213,6 +215,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             offset={0}
             duration={300}
             to="techStack"
+            onClick={()=>setTog(!tog)}
           >
             Tech Stack
           </Link>
@@ -223,6 +226,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             offset={0}
             duration={300}
             to="projects"
+            onClick={()=>setTog(!tog)}
           >
             Projects
           </Link>
@@ -233,6 +237,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             offset={0}
             duration={300}
             to="contact"
+            onClick={()=>setTog(!tog)}
           >
             Contact
           </Link>
