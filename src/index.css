@@ -8,3 +8,10 @@
 body{
     font-family: 'DM Sans', sans-serif;
 }
+
+
+.border-gradient-pink-to-neon {
+    border-width: 6px;
+    border-style: solid;
+    border-color: linear-gradient(to right, #ff6b6b, #00ff00);
+}

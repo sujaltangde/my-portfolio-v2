@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-// import { Home } from "./components/Home";
+import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
     <>
     
       <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
-      {/* <Home/>
       <Home/>
-      <Home/> */}
+      <Home/>
+     
 
 
     </>
