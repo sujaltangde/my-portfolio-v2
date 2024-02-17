@@ -48,7 +48,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             smooth={true}
             offset={0}
             duration={300}
-            to="techStack"
+            to="techstack"
           >
             Tech Stack
           </Link>
@@ -214,7 +214,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             smooth={true}
             offset={0}
             duration={300}
-            to="techStack"
+            to="techstack"
             onClick={()=>setTog(!tog)}
           >
             Tech Stack

@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { About } from "./components/About";
+import { TechStack } from "./components/TechStack";
+import { Projects } from "./components/Projects";
+import { Footer } from "./components/Footer";
 
 function App() {
 
@@ -26,10 +29,9 @@ function App() {
       <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
       <Home/>
       <About/>
-
-     
-
-
+      <TechStack theme={theme} />
+      <Projects/>
+      <Footer/>
     </>
   )
 }

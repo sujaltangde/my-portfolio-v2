@@ -73,3 +73,9 @@ body{
     0% { transform: rotateZ(0deg); }
     100% { transform: rotateZ(0deg); }
 }
+
+
+
+.shadow-effect{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}

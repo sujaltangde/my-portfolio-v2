@@ -3,7 +3,7 @@
 export const Home = () => {
   return (
     <>
-      <div className="min-h-screen dark:text-white bg-white dark:bg-gray-900">
+      <div id="home" className="min-h-screen dark:text-white bg-white dark:bg-gray-900">
         <div className="flex md:flex-row flex-col items-center justify-center md:pb-32 pb-12 md:pt-0 pt-12">
 
           <div className="md:w-1/2 h-96 md:hidden flex justify-center items-center ">
