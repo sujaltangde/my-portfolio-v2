@@ -6,6 +6,7 @@ import { About } from "./components/About";
 import { TechStack } from "./components/TechStack";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { Contact } from "./components/Contact";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <About/>
       <TechStack theme={theme} />
       <Projects/>
+      <Contact/>
       <Footer/>
     </>
   )

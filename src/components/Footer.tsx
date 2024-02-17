@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 export const Footer = () => {
   return (
     <>
-      <div className="pt-24  dark:text-white bg-white dark:bg-gray-900">
+      <div className="pt-4  dark:text-white bg-white dark:bg-gray-900">
         <div className="flex md:flex-row flex-col justify-between py-6  border-b border-gray-400 mx-6">
           <div className="dark:text-white text-xl font-semibold">{`{Sujal}`}</div>
 
@@ -58,7 +58,7 @@ export const Footer = () => {
 
         <div className="flex md:flex-row flex-col  justify-between px-6 md:py-8 py-6">
         
-            <div className="flex  md:text-base text-sm md:gap-10 gap-3  ">
+            <div className="md:flex hidden  md:text-base text-sm md:gap-10 gap-3  ">
               <Link
                 className=" cursor-pointer  dark:text-white"
                 spy={true}
@@ -112,8 +112,8 @@ export const Footer = () => {
             </div>
         
 
-          <div className="md:pt-0 pt-12 md:text-base text-xs">
-            <p>Designed and built by Sujal Tangde with Love & Coffee</p>
+          <div className="md:pt-0 pt-2 md:text-base text-xs">
+            <p>Designed and built by Sujal Tangde with ❤️ & ☕.</p>
           </div>
         </div>
       </div>

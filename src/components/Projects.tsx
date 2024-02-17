@@ -5,7 +5,7 @@ export const Projects = () => {
     <>
       <div
         id="projects"
-        className="min-h-screen md:px-12 pt-16 px-3 dark:text-white  bg-white dark:bg-gray-900"
+        className="min-h-screen md:px-12 pt-16 px-6 dark:text-white  bg-white dark:bg-gray-900"
       >
         <div>
           <p className="text-3xl font-extrabold">Projects</p>
