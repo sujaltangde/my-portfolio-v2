@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -21,15 +22,20 @@ export const Home = () => {
               Sujal Tangde{" "}
             </p>
             <p>I build things for web.</p>
-            <div className="">
-              <button className="md:text-lg text-white text-base px-8 py-1 rounded-md font-medium bg-blue-700">
-              <a href="google.com"  target="_blank"
-                rel="noopener noreferrer" className="flex justify-center items-center gap-1">
-                <FaExternalLinkAlt size={12} />
-                <span className=" ">Resume</span>
+           
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1nSqj-8smpiy88nGFUeyHazJQTKgsQXeW/view?usp=drive_link"
+                className="md:text-lg mt-2  border w-2/5 md:w-1/3 text-white text-base px-8 py-1 rounded-md font-medium bg-blue-700"
+              >
+                <div className="flex justify-center items-center gap-1">
+                  <FaExternalLinkAlt size={12} />
+                  <span className=" ">Resume</span>
+                </div>
               </a>
-              </button>
-            </div>
+
+           
           </div>
 
           <div className="md:w-1/2 md:flex hidden justify-center items-center ">
