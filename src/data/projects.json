@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Stellarmart - Ecommerce Website",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Chart.js","Redux"],
+        "img":"/projects/stellarmart.JPG",
+        "liveDeployment": "https://stellarmart.netlify.app",
+        "githubRepo": "https://github.com/sujaltangde/StellarMart"
+    },
+    {
+        "title": "Joblane - Job-Portal Website",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Chart.js","Redux"],
+        "img":"/projects/joblane.JPG",
+        "liveDeployment": "https://joblane-01.netlify.app/",
+        "githubRepo": "https://github.com/sujaltangde/JobLane"
+    },
+    {
+        "title": "BlogWiz - Blogging Platform",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Redux"],
+        "img":"/projects/blogwiz.JPG",
+        "liveDeployment": "https://blogwiz-01.netlify.app",
+        "githubRepo": "https://github.com/sujaltangde/Blogwiz-app"
+    },
+    {
+        "title": "Expense Tracker Application",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Chart.js","Redux"],
+        "img":"/projects/expense_tracker.JPG",
+        "liveDeployment": "https://expense-tracker-08.netlify.app",
+        "githubRepo": "https://github.com/sujaltangde/Expense-Tracker"
+    },
+    {
+        "title": "DoitHero - Todos list",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Redux"],
+        "img":"/projects/doithero.JPG",
+        "liveDeployment": "https://doithero.netlify.app",
+        "githubRepo": "https://github.com/sujaltangde/doithero-app"
+    },
+    {
+        "title": "Weather Application",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Bootstrap"],
+        "img":"/projects/weatherapp.JPG",
+        "liveDeployment": "https://weatherapp-d3ecd.web.app",
+        "githubRepo": "https://github.com/sujaltangde/WeatherApp"
+    },
+    {
+        "title": "VibeChat - Live-Chat Application",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
+        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Tailwind","Socket.io"],
+        "img":"/projects/vibechat.JPG",
+        "liveDeployment": "https://vibe-chat.netlify.app",
+        "githubRepo": "https://github.com/sujaltangde/vibechat-app"
+    }
+]
