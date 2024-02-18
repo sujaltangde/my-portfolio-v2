@@ -2,7 +2,6 @@ import { IoLogoGithub, IoIosLink } from "react-icons/io";
 import projects from "../data/projects.json";
 
 export const Projects = () => {
-  console.log(projects);
   return (
     <>
       <div
@@ -16,7 +15,7 @@ export const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-14 md:mx-12 mx-3 mt-8 ">
           {projects.map((e) => (
-            <div className="dark:bg-gray-800 rounded-xl shadow-effect">
+            <div className="dark:bg-gray-800  rounded-xl shadow-effect">
               <div>
                 <img className="rounded-t-xl" src={e.img} alt="" />
               </div>
@@ -36,7 +35,6 @@ export const Projects = () => {
                       </span>
                     ))}
                   </div>
-
                 </div>
               </div>
 
@@ -44,6 +42,8 @@ export const Projects = () => {
                 <a
                   href={e.liveDeployment}
                   className="underline flex items-center gap-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <IoIosLink size={20} />{" "}
                   <span className="text-sm font-semibold">Live Preview</span>{" "}
@@ -51,6 +51,8 @@ export const Projects = () => {
                 <a
                   href={e.githubRepo}
                   className="underline flex items-center gap-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <IoLogoGithub size={20} />{" "}
                   <span className="text-sm font-semibold">View Code</span>{" "}
