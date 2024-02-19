@@ -10,10 +10,10 @@ export const Projects = () => {
       >
         <div>
           <p className="text-3xl font-extrabold">Projects</p>
-          <p className="mt-3">Things I’ve built so far</p>
+          <p className="mt-3">Checkout some of my work which demonstrate my skills.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-14 md:mx-12 mx-3 mt-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-14 md:mx-4 mx-1 mt-8 ">
           {projects.map((e) => (
             <div className="dark:bg-gray-800  rounded-xl shadow-effect">
               <div>
@@ -22,10 +22,10 @@ export const Projects = () => {
 
               <div className="px-3 flex flex-col gap-2 my-3">
                 <p className="font-semibold text-lg">{e.title}</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="md:text-sm text-xs md:h-40 h-32 text-gray-600 dark:text-gray-400">
                   {e.description}
                 </p>
-                <div className="flex gap-2  ">
+                <div className="flex gap-2  mt-0 md:mt-1">
                   <div className="font-semibold   text-sm">Tech Stack:</div>{" "}
                   <div className="text-gray-600 flex flex-wrap dark:text-gray-400">
                     {e.techStack.map((a, index) => (
@@ -38,7 +38,7 @@ export const Projects = () => {
                 </div>
               </div>
 
-              <div className="flex justify-around my-3">
+              <div className="flex justify-around mt-3 mb-5 ">
                 <a
                   href={e.liveDeployment}
                   className="underline flex items-center gap-1"

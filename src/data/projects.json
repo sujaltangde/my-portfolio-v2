@@ -1,58 +1,116 @@
 [
-    {
-        "title": "Stellarmart - Ecommerce Website",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Chart.js","Redux"],
-        "img":"/projects/stellarmart.JPG",
-        "liveDeployment": "https://stellarmart.netlify.app",
-        "githubRepo": "https://github.com/sujaltangde/StellarMart"
-    },
-    {
-        "title": "Joblane - Job-Portal Website",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Chart.js","Redux"],
-        "img":"/projects/joblane.JPG",
-        "liveDeployment": "https://joblane-01.netlify.app/",
-        "githubRepo": "https://github.com/sujaltangde/JobLane"
-    },
-    {
-        "title": "BlogWiz - Blogging Platform",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Redux"],
-        "img":"/projects/blogwiz.JPG",
-        "liveDeployment": "https://blogwiz-01.netlify.app",
-        "githubRepo": "https://github.com/sujaltangde/Blogwiz-app"
-    },
-    {
-        "title": "Expense Tracker Application",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Chart.js","Redux"],
-        "img":"/projects/expense_tracker.JPG",
-        "liveDeployment": "https://expense-tracker-08.netlify.app",
-        "githubRepo": "https://github.com/sujaltangde/Expense-Tracker"
-    },
-    {
-        "title": "DoitHero - Todos list",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Express.js","MongoDB","Tailwind","Redux"],
-        "img":"/projects/doithero.JPG",
-        "liveDeployment": "https://doithero.netlify.app",
-        "githubRepo": "https://github.com/sujaltangde/doithero-app"
-    },
-    {
-        "title": "Weather Application",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Bootstrap"],
-        "img":"/projects/weatherapp.JPG",
-        "liveDeployment": "https://weatherapp-d3ecd.web.app",
-        "githubRepo": "https://github.com/sujaltangde/WeatherApp"
-    },
-    {
-        "title": "VibeChat - Live-Chat Application",
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. ",
-        "techStack": ["HTML","CSS","JavaScript","React.js","Node.js","Tailwind","Socket.io"],
-        "img":"/projects/vibechat.JPG",
-        "liveDeployment": "https://vibe-chat.netlify.app",
-        "githubRepo": "https://github.com/sujaltangde/vibechat-app"
-    }
+  {
+    "title": "Stellarmart - Ecommerce Website",
+    "description": "A full-fledged full-stack e-commerce application with integrated online payment functionality, enabling users to search, save, filter, and purchase products. Users can also manage their profiles and track their orders and purchases. Additionally, implement an admin dashboard to add and track overall products and product sales on the website and manage orders and users.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "Redux"
+    ],
+    "img": "/projects/stellarmart.JPG",
+    "liveDeployment": "https://stellarmart.netlify.app",
+    "githubRepo": "https://github.com/sujaltangde/StellarMart"
+  },
+  {
+    "title": "Joblane - Job-Portal Website",
+    "description": "A full-stack job application portal that enables users to search, save, and filter jobs by category. Users can upload their resumes, manage their profiles, and track the status of applied jobs. The platform includes an admin feature for managing job application statuses and user accounts, as well as posting new job listings on the website.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "Redux"
+    ],
+    "img": "/projects/joblane.JPG",
+    "liveDeployment": "https://joblane-01.netlify.app/",
+    "githubRepo": "https://github.com/sujaltangde/JobLane"
+  },
+  {
+    "title": "BlogWiz - Blogging Platform",
+    "description": "A blogging platform website with a sleek and user-friendly interface, allowing users to write articles, upload pictures, edit their articles, delete them as needed, and search through different blogs of other users. The platform includes authentication, login, and registration features.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "Redux"
+    ],
+    "img": "/projects/blogwiz.JPG",
+    "liveDeployment": "https://blogwiz-01.netlify.app",
+    "githubRepo": "https://github.com/sujaltangde/Blogwiz-app"
+  },
+  {
+    "title": "Expense Tracker Application",
+    "description": "A full-stack expense tracker application with a beautiful and user-friendly interface. Users can add their expenses along with dates and income, and manage their overall income, outgoing, and incoming transactions. The platform enables users to search through their different expenses and includes login and registration functionalities.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "Redux"
+    ],
+    "img": "/projects/expense_tracker.JPG",
+    "liveDeployment": "https://expense-tracker-08.netlify.app",
+    "githubRepo": "https://github.com/sujaltangde/Expense-Tracker"
+  },
+  {
+    "title": "DoitHero - Todos list",
+    "description": "A full-stack todo list web application with a beautiful and user-friendly interface, including notification features. Users can add, edit, and delete their todos effortlessly. The platform also includes login and registration functionality for user authentication.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "Redux"
+    ],
+    "img": "/projects/doithero.JPG",
+    "liveDeployment": "https://doithero.netlify.app",
+    "githubRepo": "https://github.com/sujaltangde/doithero-app"
+  },
+  {
+    "title": "Weather Application",
+    "description": "A weather application that provides weather-related data for any city in the world in Celsius and Fahrenheit. It utilizes the OpenWeather API to fetch weather information for cities and dynamically changes the background image according to the weather conditions. The application boasts a beautiful interface for an enhanced user experience.",
+    "techStack": ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap"],
+    "img": "/projects/weatherapp.JPG",
+    "liveDeployment": "https://weatherapp-d3ecd.web.app",
+    "githubRepo": "https://github.com/sujaltangde/WeatherApp"
+  },
+  {
+    "title": "VibeChat - Live-Chat Application",
+    "description": "A real-time chat web application built with Socket.IO and Node.js, allowing users to enter chat rooms and engage in live conversations. Multiple users can chat together in the same chat room simultaneously, providing a seamless real-time chatting experience.",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Tailwind",
+      "Socket.io"
+    ],
+    "img": "/projects/vibechat.JPG",
+    "liveDeployment": "https://vibe-chat.netlify.app",
+    "githubRepo": "https://github.com/sujaltangde/vibechat-app"
+  }
 ]

@@ -15,7 +15,7 @@ export const Footer = () => {
               +91 7020197537
             </a>
 
-            <a className="md:text-base text-sm " href="mailto:sujaltagade01@gmail.com" type="mail">
+            <a className="md:text-base text-sm " href="mailto:sujaltagade01@gmail.com" >
               sujaltagade01@gmail.com
             </a>
 

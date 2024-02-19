@@ -16,9 +16,9 @@ export const Home = () => {
           </div>
 
           <div className="md:w-1/2 flex flex-col md:pl-44 w-full px-6 md:gap-2 font-bold md:pt-12 text-3xl md:text-5xl text-gray-900 dark:text-white">
-            <p>Hi👋,</p>
+            <div className="flex gap-2 items-left justify-start">Hi  <span className="flex"><img src="/images/handIcon.png" className="md:h-12 h-8" alt="" />,</span> </div>
             <p>My name is</p>
-            <p className="bg-clip-text bg-gradient-to-r md:pb-1 text-transparent from-blue-500  to-red-600 ">
+            <p className="bg-clip-text bg-gradient-to-r md:pb-1 text-transparent from-blue-500  to-red-500 ">
               Sujal Tangde{" "}
             </p>
             <p>I build things for web.</p>
@@ -27,7 +27,7 @@ export const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1nSqj-8smpiy88nGFUeyHazJQTKgsQXeW/view?usp=drive_link"
-                className="md:text-lg mt-2  border w-2/5 md:w-1/3 text-white text-base px-8 py-1 rounded-md font-medium bg-blue-700"
+                className="md:text-lg mt-2   w-2/5 md:w-1/3 text-white text-base md:px-8 px-6 py-1 rounded-md font-medium bg-blue-700"
               >
                 <div className="flex justify-center items-center gap-1">
                   <FaExternalLinkAlt size={12} />

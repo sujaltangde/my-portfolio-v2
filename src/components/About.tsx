@@ -18,9 +18,9 @@ export const About = () => {
           </div>
 
           <div className="md:mt-8 mt-5">
-          <p className="text-3xl font-extrabold">Work Experience</p>
+          <p className="text-2xl font-bold">Work Experience</p>
 
-          <div className="md:w-1/3 border-b py-3">
+          <div className="md:w-1/3 border-b pt-3 md:pb-5 pb-3">
             <div className="flex justify-between ">
             <span className="md:text-lg font-medium">Software Development Intern</span>
             <p className="text-xs  bg-green-300 md:px-6 md:w-auto w-1/4 md:h-auto h-6 font-bold rounded-md text-green-700 text-center md:pt-1.5 pt-1">Full Time</p>
@@ -33,8 +33,8 @@ export const About = () => {
           </div>
 
           <div className="md:mt-8 mt-5">
-          <p className="text-3xl font-extrabold">Education</p>
-          <div className="md:w-1/3 border-b py-3">
+          <p className="text-2xl font-bold">Education</p>
+          <div className="md:w-1/3 border-b pt-3 md:pb-5 pb-3">
             <div className="flex justify-between ">
             <span className="md:text-lg font-medium">Bachelor of Computer Application</span>
             <p className="text-xs  bg-green-300 md:px-6 md:w-auto w-1/4 md:h-auto h-6 font-bold rounded-md text-green-700 text-center md:pt-1.5 pt-1">Full Time</p>
