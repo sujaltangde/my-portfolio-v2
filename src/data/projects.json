@@ -92,7 +92,7 @@
   {
     "title": "Weather Application",
     "description": "A weather application that provides weather-related data for any city in the world in Celsius and Fahrenheit. It utilizes the OpenWeather API to fetch weather information for cities and dynamically changes the background image according to the weather conditions. The application boasts a beautiful interface for an enhanced user experience.",
-    "techStack": ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap"],
+    "techStack": ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap","OpenWeather API"],
     "img": "/projects/weatherapp.JPG",
     "liveDeployment": "https://weatherapp-d3ecd.web.app",
     "githubRepo": "https://github.com/sujaltangde/WeatherApp"
