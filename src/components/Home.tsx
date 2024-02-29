@@ -26,7 +26,7 @@ export const Home = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1nSqj-8smpiy88nGFUeyHazJQTKgsQXeW/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1x5GInh9u456kkMbaYSrZUqK8yUdXIxmm/view?usp=drive_link"
                 className="md:text-lg mt-2   w-2/5 md:w-1/3 text-white text-base md:px-8 px-6 py-1 rounded-md font-medium bg-blue-700"
               >
                 <div className="flex justify-center items-center gap-1">
