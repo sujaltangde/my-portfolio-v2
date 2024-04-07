@@ -7,6 +7,8 @@
 
 body{
     font-family: 'DM Sans', sans-serif;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><circle cx="5" cy="5" r="5" fill="red" /></svg>'),
+		auto;
 }
 
 
@@ -79,3 +81,19 @@ body{
 .shadow-effect{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

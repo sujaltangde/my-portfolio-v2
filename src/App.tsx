@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
@@ -9,33 +8,31 @@ import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
 
 function App() {
-
   const [theme, setTheme] = useState("light");
 
-  useEffect(()=>{
-    if(theme === "dark"){
+  useEffect(() => {
+    if (theme === "dark") {
       document.documentElement.classList.add("dark");
-    }else{
+    } else {
       document.documentElement.classList.remove("dark");
     }
-  },[theme])
+  }, [theme]);
 
   const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark") ;
-  }
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   return (
     <>
-    
       <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
-      <Home/>
-      <About/>
+      <Home />
+      <About />
       <TechStack theme={theme} />
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Projects />
+      <Contact />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
