@@ -32,7 +32,7 @@
       "Redux"
     ],
     "img": "/projects/joblane.JPG",
-    "liveDeployment": "https://joblane-01.netlify.app/",
+    "liveDeployment": "https://joblane.vercel.app/",
     "githubRepo": "https://github.com/sujaltangde/JobLane"
   },
   {
@@ -52,6 +52,23 @@
     "img": "/projects/blogwiz.JPG",
     "liveDeployment": "https://blogwiz-01.netlify.app",
     "githubRepo": "https://github.com/sujaltangde/Blogwiz-app"
+  },
+  {
+    "title": "7up-7down Game",
+    "description": " The 7up-7down game is a full-stack application with an interactive UI and realistic dice rolls. Users start with 5000 points, which adjust based on wins or losses. Features include profile management, points tracking, game history, and an dashboard for managing and tracking activity, providing an immersive gaming experience .",
+    "techStack": [
+      "React.js",
+     "Tailwind",
+       "Material UI",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+  
+    ],
+    "img": "/projects/7upgame.JPG",
+    "liveDeployment": "https://7up-7down.vercel.app/",
+    "githubRepo": "https://github.com/sujaltangde/7up-7down"
   },
   {
     "title": "Expense Tracker Application",
