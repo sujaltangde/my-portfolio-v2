@@ -54,21 +54,21 @@
     "githubRepo": "https://github.com/sujaltangde/Blogwiz-app"
   },
   {
-    "title": "7up-7down Game",
-    "description": " The 7up-7down game is a full-stack application with an interactive UI and realistic dice rolls. Users start with 5000 points, which adjust based on wins or losses. Features include profile management, points tracking, game history, and an dashboard for managing and tracking activity, providing an immersive gaming experience .",
+    "title": "MealMatrix - Recipe Book",
+    "description": "A recipe storing platform website with a sleek and user-friendly interface, allowing users to write write, upload pictures, edit their recipes, delete them as needed, and search through different recipes of other users. The platform includes authentication, login, and registration features.",
     "techStack": [
+      "JavaScript",
       "React.js",
-     "Tailwind",
-       "Material UI",
-      "Redux",
       "Node.js",
       "Express.js",
-      "MongoDB"
-  
+      "MongoDB",
+      "Tailwind",
+      "MUI",
+      "Redux"
     ],
-    "img": "/projects/7upgame.JPG",
-    "liveDeployment": "https://7up-7down.vercel.app/",
-    "githubRepo": "https://github.com/sujaltangde/7up-7down"
+    "img": "/projects/mealMatrix.JPG",
+    "liveDeployment": "https://mealmatrix.vercel.app/",
+    "githubRepo": "https://github.com/sujaltangde/Ecowiser-assignment"
   },
   {
     "title": "Expense Tracker Application",
