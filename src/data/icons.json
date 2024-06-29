@@ -64,5 +64,9 @@
     {
         "name": "Github",
         "img": "/icons/github.png"
+    },   
+    {
+        "name": "Figma",
+        "img": "/icons/figma.png"
     }   
 ]
