@@ -46,16 +46,20 @@
         "img2": "/icons/express_white.png"
     },
     {
+        "name": "Nest.js",
+        "img": "/icons/nestjs.png"
+    },
+    {
         "name": "MongoDB",
         "img": "/icons/mongodb.png"
     },
     {
-        "name": "PostgreSQL",
-        "img": "/icons/postgre.webp"
+        "name": "MySQL",
+        "img": "/icons/mysql.png"
     },
     {
-        "name": "Java",
-        "img": "/icons/java.png"
+        "name": "PostgreSQL",
+        "img": "/icons/postgre.webp"
     },
     {
         "name": "Git",
