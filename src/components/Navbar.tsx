@@ -20,7 +20,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
     <nav className="md:py-4 pt-3 pb-2 flex z-20 fixed w-full justify-between bg-white dark:bg-gray-900">
       <div className="dark:text-white text-xl font-semibold pl-3 md:pl-6">{`{Sujal}`}</div>
 
-      <ul className="hidden md:flex gap-16 ">
+      <ul className=" sm:flex hidden  gap-16 ">
         <Link
           className="text-lg cursor-pointer  dark:text-white"
           spy={true}
