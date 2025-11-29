@@ -13,7 +13,7 @@ export const About: React.FC = () => {
           </p>
         </main>
 
-        <section className="md:mt-8 mt-5">
+        {/* <section className="md:mt-8 mt-5">
           <h2 className="text-2xl font-bold">Work Experience</h2>
 
           <div className="md:w-1/3 border-b pt-3 md:pb-5 pb-3">
@@ -51,7 +51,7 @@ export const About: React.FC = () => {
               <span>Oct 2023 - Jan 2024</span>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="md:mt-8 mt-5">
           <h2 className="text-2xl font-bold">Education</h2>
